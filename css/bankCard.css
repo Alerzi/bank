@@ -1,0 +1,54 @@
+.card {
+    background-color: blue;
+    border-radius: 20px;
+    padding: 35px;
+    position: relative;
+    border: 1px solid white;
+    overflow: hidden;
+}
+.card-link {
+    text-decoration: none;
+    color: white;
+}
+.bank-card-content {
+    margin-right: 100px;
+}
+.bank-card-top h1, .bank-card-top p {
+    margin: 0;
+    padding: 0;
+}
+.bank-card-mid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.bank-card-mid h1, .bank-card-mid h2 {
+    margin: 0;
+    padding: 0;
+}
+.bank-card-bottom {
+    font-size: 22px;
+}
+.card-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100%;
+    background-color: rgb(52, 48, 255);
+}
+.card-icon img:first-child {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 35px;
+    height: 30px;
+}
+.card-icon img:nth-child(2) {
+    position: absolute;
+    bottom: 55px;
+    right: 30px;
+    width: 35px;
+    height: 30px;
+}

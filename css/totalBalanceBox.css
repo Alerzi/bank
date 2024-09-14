@@ -1,0 +1,16 @@
+.total-balance {
+    display: flex;
+    width: 500px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px #cecece, 2px -2px 10px #cecece, -2px 2px 10px #cecece, -2px -2px 10px #cecece;
+}
+.total-balance-chart {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+.totalBalanceAmount {
+    font-weight: bold;
+    font-size: 20px;
+}

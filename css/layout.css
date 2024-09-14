@@ -1,0 +1,40 @@
+.main {
+    display: flex;
+}
+.main-mobile {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    background-color: white;
+    padding: 10px;
+    padding-top: 20px;
+    transition: left ease-in-out 0.3s;
+}
+.main-mobile-hide {
+    left: -210px;
+    transition: left ease-in-out 0.3s;
+}
+.close-mobile {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.close-mobile img {
+    transform: translateY(-5px);
+}
+.main-menu {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+.main-header {
+    margin-bottom: 50px;
+}
+.main-block {
+    width: 100%;
+}

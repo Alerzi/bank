@@ -1,0 +1,7 @@
+.home {
+    display: flex;
+    justify-content: space-between;
+}
+.home-content {
+    width: calc(100% - 600px);
+}
